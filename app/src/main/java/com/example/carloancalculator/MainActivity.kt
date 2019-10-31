@@ -48,7 +48,8 @@ class MainActivity : AppCompatActivity() {
         textDisplayRepayment.text = getString(R.string.displayRepayment)+" ";
         editLoanPeriod.setText(" ");
         editInterestRate.setText(" ");
-        editLoanPeriod.setText(" ");
+        editPrice.setText(" ");
+        editDownPayment.setText(" ");
     }
 
     private fun addPlateNo(view:View){
