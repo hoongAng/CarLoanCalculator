@@ -43,9 +43,12 @@ class MainActivity : AppCompatActivity() {
 
 
     fun resetInput(view:View){
-        textDisplayLoan.text = " ";
-        textDisplayInterest.text = " ";
-        textDisplayRepayment.text = " ";
+        textDisplayLoan.text = getString(R.string.displayLoan)+" ";
+        textDisplayInterest.text = getString(R.string.displayInterest)+" ";
+        textDisplayRepayment.text = getString(R.string.displayRepayment)+" ";
+        editLoanPeriod.setText(" ");
+        editInterestRate.setText(" ");
+        editLoanPeriod.setText(" ");
     }
 
     private fun addPlateNo(view:View){
